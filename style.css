@@ -292,7 +292,7 @@ h1, h2, h3, h4, h5, h6 {
   #home {
     width: 100%;
     height: 90vh;
-    background: url('./img/home.jpg') top center;
+    background: url('./img/home2.jpg') top center;
     background-size: cover;
     background-position: center;
   }
@@ -597,3 +597,482 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   /***** End counts *****/
+
+
+  /***** services *****/
+  
+  .services .icon-box {
+    text-align: center;
+    border: 1px solid #d9f1f2;
+    padding: 70px 20px;
+    margin-top: 15px;
+
+    transition: all ease-in-out 0.3s;
+  }
+
+  .services .icon-box .icon {
+    width: 64px;
+    height: 64px;
+    background: #1977cc;
+    border-radius: 5px;
+    transition: all 0.3 ease-out 0s;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    transform-style: preserve-3d;
+  }
+
+  .services .icon-box .icon i {
+    color: #fff;
+    font-size: 28px;
+  }
+
+  .services .icon-box .icon::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #badaf7;
+    border-radius: 5px;
+    left: -8px;
+    top: -8px;
+    transition: all 0.3s ease-out 0s;
+    transform: translateZ(-1px);
+  }
+
+  .services .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+
+  .services .icon-box h4 a {
+    color: #2c4964;
+  }
+
+  .services .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  .services .icon-box:hover {
+    background: #3fbbc0;
+  }
+
+  .services .icon-box:hover .icon {
+    background: #fff;
+  }
+  
+  .services .icon-box:hover .icon i {
+    color: #1977cc;
+  }
+
+  .services .icon-box:hover h4 a, .services .icon-box:hover p {
+    color: white;
+  }
+  /***** End services *****/
+
+
+  /*--------------------------------------------------------------
+  # Appointments
+  --------------------------------------------------------------*/
+  .appointment .php-email-form {
+    width: 100%;
+  }
+
+  .appointment .php-email-form .form-group {
+    padding-bottom: 8px;
+  }
+
+
+  .appointment .php-email-form input, .appointment .php-email-form textarea, .appointment .php-email-form select {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 10px !important;
+  }
+
+  .appointment .php-email-form input:focus, .appointment .php-email-form textarea:focus, .appointment .php-email-form select:focus {
+    border-color: #1977cc;
+  }
+
+  .appointment .php-email-form input, .appointment .php-email-form select {
+    height: 44px;
+  }
+
+  .appointment .php-email-form textarea {
+    padding: 10px 12px;
+  }
+
+  .appointment .php-email-form button[type="submit"] {
+    background: #1977cc;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+
+  .appointment .php-email-form button[type="submit"]:hover {
+    background: #3fbbc0;
+  }
+
+  /***** Doctors *****/
+
+  .doctors {
+    background-color: #fff;
+  }
+
+  .doctors .member {
+    box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
+    padding: 30px;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+  }
+
+  .doctors .member .pic {
+    overflow: hidden;
+    width: 180px;
+    border-radius: 50%;
+  }
+
+  .doctors .member .pic img {
+    transition: 0.3s ease-in-out;
+  }
+
+  .doctors .member:hover img {
+    transform: scale(1.1);
+  }
+  
+  .doctors .member .member-info {
+    padding-left: 30px;
+  }
+
+  .doctors .member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #2c4964;
+  }
+
+  .doctors .member .member-info span {
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    position: relative;
+  }
+
+  .doctors .member .member-info span::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #b2c8dd;
+    bottom: 0;
+    left: 0;
+  }
+
+  .doctors .member .member-info p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+  }
+
+  .doctors .member .social {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .doctors .member .social a {
+    transition: ease-in-out 0.3s;
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    background: #a0bcd5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .doctors .member .social a i {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .doctors .member .social a:hover {
+    background-color: #3fbbc0;
+  }
+
+  .doctors .member .social a + a {
+    margin-left: 8px;
+  }
+  
+  /***** End Doctors *****/
+
+
+  /*--------------------------------------------------------------
+  # Contact
+  --------------------------------------------------------------*/
+  .contact .info {
+    width: 100%;
+    background: #fff;
+  }
+
+  .contact .info i {
+    font-size: 20px;
+    color: #1977cc;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #d6e9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #2c4964;
+  }
+
+  .contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #4b7dab;
+  }
+
+  .contact .info .email, .contact .info .phone {
+    margin-top: 40px;
+  }
+
+  .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+    background: #3fbbc0;
+    color: #fff;
+  }
+
+  .contact .php-email-form {
+    width: 100%;
+    background: #fff;
+  }
+
+  .contact .php-email-form .form-group {
+    padding-bottom: 8px;
+  }
+
+  .contact .php-email-form input, .contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+  }
+
+  .contact .php-email-form input {
+    height: 44px;
+  }
+
+  .contact .php-email-form textarea {
+    padding: 10px 12px;
+  }
+
+  .contact .php-email-form button[type="submit"] {
+    background: #1977cc;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+
+  .contact .php-email-form button[type="submit"]:hover {
+    background:#3fbbc0;
+  }
+
+
+  /*--------------------------------------------------------------
+  # Footer
+  --------------------------------------------------------------*/
+  #footer {
+    background: #eeeeee;
+    padding: 0 0 30px 0;
+    color: #555555;
+    font-size: 14px;
+  }
+
+  #footer .footer-top {
+    background: #f6f6f6;
+    padding: 60px 0 30px 0;
+  }
+
+  #footer .footer-top .footer-info {
+    margin-bottom: 30px;
+  }
+
+  #footer .footer-top .footer-info h3 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+  }
+
+  #footer .footer-top .footer-info p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Roboto", sans-serif;
+  }
+
+  #footer .footer-top .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #1977cc;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+
+  #footer .footer-top .social-links a:hover {
+    background: #65c9cd;
+    text-decoration: none;
+  }
+
+  #footer .footer-top h4 {
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 12px;
+  }
+
+  #footer .footer-top .footer-links {
+    margin-bottom: 30px;
+  }
+
+  #footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color: #3fbbc0;
+    font-size: 18px;
+    line-height: 1;
+  }
+
+  #footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+
+  #footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+  }
+
+  #footer .footer-top .footer-links ul a {
+    color: #555555;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+  }
+
+  #footer .footer-top .footer-links ul a:hover {
+    color: #3fbbc0;
+  }
+
+  #footer .footer-top .footer-newsletter form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border: 1px solid #d5d5d5;
+    border-radius: 4px;
+  }
+
+  #footer .footer-top .footer-newsletter form input[type="email"] {
+    border: 0;
+    padding: 4px;
+    width: calc(100% - 110px);
+  }
+
+  #footer .footer-top .footer-newsletter form input[type="submit"] {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #1977cc;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 0 4px 4px 0;
+  }
+
+  #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
+    background: #65c9cd;
+  }
+
+  #footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  #footer .credits {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  /*--------------------------------------------------------------
+  # Back to top button
+  --------------------------------------------------------------*/
+  .back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #1977cc;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
+  }
+
+  .back-to-top i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+  }
+
+  .back-to-top:hover {
+    background: #298ce5;
+    color: #fff;
+  }
+
+  .back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+  }
